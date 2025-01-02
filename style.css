@@ -75,6 +75,10 @@ a {
     color: var(--portfolio-whitecolor);
 }
 
+.slidertext {
+
+}
+
 .headlinetext {
     color: var(--portfolio-maincolor);
     text-transform: uppercase;
@@ -471,12 +475,11 @@ header .maincontainter-headerright-nav {
     gap: 20px;
     padding: 20px;
     max-width: 1000px;
-    margin: 0 auto;
 }
 
 .project {
-    height: clamp(80px, 20vw, 300px);
-    width: clamp(80px, 20vw, 300px);
+    height: clamp(100px, 22vw, 300px);
+    width: clamp(100px, 22vw, 300px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -707,6 +710,14 @@ footer .maincontent .right .liste {
         overflow: hidden;
         position: relative;
     }
+    
+    .animated-text-container {
+        height: 3vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 3vw;
+    }
 
     #animated-text {
         display: inline-block;
@@ -715,9 +726,13 @@ footer .maincontent .right .liste {
         font-family: "Inter", serif;
         font-style: normal;
         color: var(--portfolio-whitecolor);
-        font-size: clamp(12px, 1.2vw, 28px);
+        font-size: clamp(13px, 1.3vw, 28px);
         font-weight: 500;
         line-height: clamp(10px, 1.5vw, 22px);
+    }
+
+    .fullslider .contentdiv {
+        right: 30%;
     }
 
     #aboutMe {
@@ -753,7 +768,6 @@ footer .maincontent .right .liste {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         max-width: 1000px;
-        margin: 0 auto;
     }
 
     .future .picture-future {
@@ -877,5 +891,9 @@ footer .maincontent .right .liste {
 
     .future {
         background-size: 40%;
+    }
+
+    .fullslider > .contentdiv > .slidertext {
+        display: none;
     }
 }
