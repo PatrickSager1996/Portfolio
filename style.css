@@ -232,6 +232,10 @@ button:hover {
     margin-top: 1vw;
 }
 
+.contact-button-mobile {
+    display: none;
+}
+
 header {
     max-width: 1800px;
     width: 100%;
@@ -970,13 +974,13 @@ footer .maincontentmobile {
     }
 
     header .headerlogotitel {
-        font-size: clamp(13px, 2.2vw, 38px);
-        line-height: clamp(17px, 2.2vw, 40px);
+        font-size: clamp(14px, 2.5vw, 38px);
+        line-height: clamp(17px, 2.5vw, 40px);
     }
     
     header .maincontainer-headerleft {
 
-        width: 70%;
+        width: 40%;
         height: 100%;
     
         display: flex;
@@ -986,7 +990,7 @@ footer .maincontentmobile {
     }
     
     header .maincontainer-headerright {
-        width: 30%;
+        width: 60%;
         height: 100%;
     
         display: flex;
@@ -1073,5 +1077,14 @@ footer .maincontentmobile {
         gap: 1vw;
         margin-top: 2vw;
         margin-left: -0.8vw;
+    }
+
+    .button-margintop {
+        display: none;
+    }
+
+    .contact-button-mobile {
+        display: block;
+        margin-top: 1vw;
     }
 }
