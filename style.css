@@ -804,7 +804,7 @@ footer .maincontentmobile {
         font-family: "Inter", serif;
         font-style: normal;
         color: var(--portfolio-whitecolor);
-        font-size: clamp(12px, 1.5vw, 17px);
+        font-size: clamp(13px, 1.5vw, 17px);
         font-weight: 300;
         line-height: clamp(17px, 1.8vw, 24px);
     }
@@ -846,7 +846,7 @@ footer .maincontentmobile {
         font-family: "Inter", serif;
         font-style: normal;
         font-weight: 800;
-        font-size: clamp(23px, 2.8vw, 50px);
+        font-size: clamp(24px, 2.8vw, 50px);
         margin-top: 2vw;
         margin-bottom: 2vw;
         letter-spacing: 0.1vw;
@@ -857,7 +857,7 @@ footer .maincontentmobile {
         font-family: "Inter", serif;
         font-style: normal;
         font-weight: 600;
-        font-size: clamp(12px, 1.2vw, 20px);
+        font-size: clamp(14px, 1.3vw, 25px);
     }
 
     .headlinetext {
@@ -1015,6 +1015,13 @@ footer .maincontentmobile {
         gap: 3vw;
     }
 
+    .contactnav {
+        display: inline;
+        color: var(--portfolio-whitecolor) !important;
+        background-color: var(--portfolio-maincolor);
+        padding: clamp(2px, 1.5vw, 10px) clamp(20px, 2.2vw, 30px);
+    }
+
     footer .maincontent {
         display: none;
     }
@@ -1039,6 +1046,7 @@ footer .maincontentmobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
@@ -1049,6 +1057,10 @@ footer .maincontentmobile {
     }
 
     footer .maincontentmobile .listemobile {
+        width: 100%;
+        margin-top: 1vw;
+        display: flex;
+        justify-content: space-between;
         list-style: none;
         text-decoration: none;
         font-size: clamp(11px, 1.1vw, 15px);
