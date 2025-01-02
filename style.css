@@ -804,7 +804,7 @@ footer .maincontentmobile {
         font-family: "Inter", serif;
         font-style: normal;
         color: var(--portfolio-whitecolor);
-        font-size: clamp(10px, 1.5vw, 17px);
+        font-size: clamp(11px, 1.5vw, 17px);
         font-weight: 300;
         line-height: clamp(17px, 1.8vw, 24px);
     }
