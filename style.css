@@ -269,7 +269,7 @@ header .maincontainer-headerleft {
 }
 
 header .maincontainer-headerleft-picture {
-    width: 30%;
+    width: 40%;
     max-width: 70px;
     object-fit: cover;
     aspect-ratio: 1 / 1;
