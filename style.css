@@ -920,8 +920,8 @@ footer .maincontentmobile {
     .future-mobile {
         width: 100%;
         height: 100%;
-        padding-top: 5vw;
-        padding-bottom: 5vw;
+        padding-top: 12vw;
+        padding-bottom: 12vw;
         background-color: var(--portfolio-backgroundcolor);
     
         background-image: url(./MediaFile/Background/Background-Element-2.svg);
@@ -1098,5 +1098,10 @@ footer .maincontentmobile {
     .contact-button-mobile {
         display: block;
         margin-top: 2vw;
+    }
+
+    .maincontainer-margin {
+        margin-top: 12vw;
+        margin-bottom: 12vw;
     }
 }
