@@ -750,7 +750,7 @@ footer .maincontentmobile {
         font-family: "Inter", serif;
         font-style: normal;
         color: var(--portfolio-whitecolor);
-        font-size: clamp(13px, 1.3vw, 28px);
+        font-size: clamp(15px, 1.3vw, 28px);
         font-weight: 500;
         line-height: clamp(10px, 1.5vw, 22px);
     }
@@ -804,9 +804,9 @@ footer .maincontentmobile {
         font-family: "Inter", serif;
         font-style: normal;
         color: var(--portfolio-whitecolor);
-        font-size: clamp(11px, 1.1vw, 15px);
+        font-size: clamp(10px, 1.5vw, 17px);
         font-weight: 300;
-        line-height: clamp(15px, 1.8vw, 22px);
+        line-height: clamp(17px, 1.8vw, 24px);
     }
 
     .project {
@@ -836,13 +836,17 @@ footer .maincontentmobile {
         font-weight: 500;
     }
 
+    h1 {
+        font-size: clamp(30px, 3.5vw, 60px);
+    }
+
     h2 {
         font-family: "Inter", serif;
         font-style: normal;
         font-weight: 800;
-        font-size: clamp(18px, 2.6vw, 50px);
-        margin-top: 0.6vw;
-        margin-bottom: 0.6vw;
+        font-size: clamp(23px, 2.8vw, 50px);
+        margin-top: 2vw;
+        margin-bottom: 2vw;
         letter-spacing: 0.1vw;
         text-transform: normal;
     }
@@ -857,14 +861,14 @@ footer .maincontentmobile {
     .headlinetext {
         color: var(--portfolio-maincolor);
         text-transform: uppercase;
-        font-size: clamp(7px, 0.9vw, 13px);
+        font-size: clamp(9px, 1.2vw, 13px);
         font-weight: 600;
     }
     
     .headlinetext-with-white {
         color: var(--portfolio-maincolor);
         text-transform: uppercase;
-        font-size: clamp(7px, 0.9vw, 13px);
+        font-size: clamp(9px, 1.2vw, 13px);
         padding: clamp(1px, 0.6vw, 4px) clamp(2px, 1vw, 8px);
         font-weight: 600;
         background-color: var(--portfolio-whitecolor);
@@ -926,13 +930,13 @@ footer .maincontentmobile {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
 
     .picture-future-mobile {
         height: 100%;
         width: 100%;
         padding: 2vw;
+        margin-left: -4vw;
     }
     
     .future-mobile > .maincontainer > #maindivgoals-mobile > .picture-future-mobile > img {
@@ -1065,19 +1069,24 @@ footer .maincontentmobile {
         align-items: center;
     }
 
-    .contacttextmobile {
-        text-align: left;
+    #contact-mobile .content {
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
-
+    
     #contact-mobile .content .socialmedia-mobile {
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         gap: 1vw;
         margin-top: 2vw;
-        margin-left: -0.8vw;
     }
 
     .button-margintop {
@@ -1086,6 +1095,6 @@ footer .maincontentmobile {
 
     .contact-button-mobile {
         display: block;
-        margin-top: 1vw;
+        margin-top: 2vw;
     }
 }
