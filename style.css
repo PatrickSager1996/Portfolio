@@ -649,6 +649,10 @@ header .maincontainter-headerright-nav-mobile {
     align-items: center;
 }
 
+#contact-mobile {
+    display: none;
+}
+
 #contact .content {
     height: 100%;
     width: 100%;
@@ -944,10 +948,6 @@ footer .maincontentmobile {
         height: 100%;
     }
 
-    #contact .content {
-        text-align: left !important;
-    }
-
     .fullslider > .contentdiv > .slidertext {
         display: none;
     }
@@ -968,10 +968,15 @@ footer .maincontentmobile {
     header .maincontainter-headerright-nav {
         display: none;
     }
+
+    header .headerlogotitel {
+        font-size: clamp(13px, 2.2vw, 38px);
+        line-height: clamp(17px, 2.2vw, 40px);
+    }
     
     header .maincontainer-headerleft {
 
-        width: 50%;
+        width: 70%;
         height: 100%;
     
         display: flex;
@@ -981,7 +986,7 @@ footer .maincontentmobile {
     }
     
     header .maincontainer-headerright {
-        width: 50%;
+        width: 30%;
         height: 100%;
     
         display: flex;
@@ -1040,5 +1045,33 @@ footer .maincontentmobile {
         font-style: normal;
         font-weight: 300;
         line-height: clamp(17px, 2vw, 24px);
+    }
+
+    #contact {
+        display: none;
+    }
+
+    #contact-mobile {
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacttextmobile {
+        text-align: left;
+    }
+
+    #contact-mobile .content .socialmedia-mobile {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1vw;
+        margin-top: 2vw;
+        margin-left: -0.8vw;
     }
 }
