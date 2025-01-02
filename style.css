@@ -607,6 +607,14 @@ header .maincontainter-headerright-nav-mobile {
     align-items: center;
 }
 
+.future-mobile {
+    display: none;
+}
+
+.futer #maindivgoals-mobile {
+    display: none;
+}
+
 .future #maindivgoals {
     display: flex;
     justify-content: flex-start;
@@ -776,10 +784,6 @@ footer .maincontentmobile {
         max-width: 1000px;
     }
 
-    .future .picture-future {
-        display: none;
-    }
-
     .future .text-future {
         height: 100%;
         width: 100%;
@@ -888,15 +892,60 @@ footer .maincontentmobile {
         gap: 2vw;
         margin-top: 2vw;
     }
-    
+
     #contact .content .socialmedia {
         gap: 2vw;
         margin-top: 2vw;
     }
 
     .future {
-        background-size: 40%;
-        background-position: -22% bottom;
+        display: none;
+    }
+    
+    .future-mobile {
+        width: 100%;
+        height: 100%;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        background-color: var(--portfolio-backgroundcolor);
+    
+        background-image: url(./MediaFile/Background/Background-Element-2.svg);
+        background-size: 50%;
+        background-position: 117% top;
+        background-repeat: no-repeat;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .picture-future-mobile {
+        height: 100%;
+        width: 100%;
+        padding: 2vw;
+    }
+    
+    .future-mobile > .maincontainer > #maindivgoals-mobile > .picture-future-mobile > img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .future #maindivgoals {
+        display: none;
+    }
+
+    .futer #maindivgoals-mobile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    #contact .content {
+        text-align: left !important;
     }
 
     .fullslider > .contentdiv > .slidertext {
@@ -950,7 +999,6 @@ footer .maincontentmobile {
         gap: 3vw;
     }
 
-    
     footer .maincontent {
         display: none;
     }
