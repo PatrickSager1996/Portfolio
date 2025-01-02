@@ -84,33 +84,33 @@ const projectsData = {
         { name: 'Foto 4', image: './MediaFile/Projects/Fotos/Cityfotografie.webp', link: 'https://adobe.ly/4gzVALu' }
     ],
     videos: [
-        { name: 'Video 1', image: './MediaFile/Projects/Videos/30Jahre.webp', link: 'https://example.com/video1' },
-        { name: 'Video 2', image: './MediaFile/Projects/Videos/diaflex.webp', link: 'https://example.com/video2' },
-        { name: 'Video 3', image: './MediaFile/Projects/Videos/iSTORAGE.webp', link: 'https://example.com/video3' },
-        { name: 'Video 4', image: './MediaFile/Projects/Videos/Lampensortiment.webp', link: 'https://example.com/video4' },
-        { name: 'Video 5', image: './MediaFile/Projects/Videos/MAXMOBIL.webp', link: 'https://example.com/video5' }
+        { name: 'Video 1', image: './MediaFile/Projects/Videos/30Jahre.webp', link: 'https://www.youtube.com/watch?v=uvoa-H4TQe8' },
+        { name: 'Video 2', image: './MediaFile/Projects/Videos/diaflex.webp', link: 'https://www.youtube.com/watch?v=hKhUSWUs4lU' },
+        { name: 'Video 3', image: './MediaFile/Projects/Videos/iSTORAGE.webp', link: 'https://www.youtube.com/watch?v=N0OsfbLp3jQ' },
+        { name: 'Video 4', image: './MediaFile/Projects/Videos/Lampensortiment.webp', link: 'https://www.youtube.com/watch?v=IPmXIaM6siM' },
+        { name: 'Video 5', image: './MediaFile/Projects/Videos/MAXMOBIL.webp', link: 'https://www.youtube.com/watch?v=KOx783_YUbU' }
     ],
     print: [
-        { name: 'Print 1', image: './MediaFile/Projects/Print/Blickfang/BlickfangVIII.webp', link: 'https://example.com/print1' },
-        { name: 'Print 2', image: './MediaFile/Projects/Print/Blickfang/BlickfangIX.webp', link: 'https://example.com/print2' },
-        { name: 'Print 3', image: './MediaFile/Projects/Print/Funke/Funke1.webp', link: 'https://example.com/print3' },
-        { name: 'Print 4', image: './MediaFile/Projects/Print/DiamantFaltflyer/DiamantFaltflyer.webp', link: 'https://example.com/print4' },
-        { name: 'Print 5', image: './MediaFile/Projects/Print/Rollups/JUBI.webp', link: 'https://example.com/print5' },
-        { name: 'Print 6', image: './MediaFile/Projects/Print/Rollups/BLK.webp', link: 'https://example.com/print5' },
-        { name: 'Print 7', image: './MediaFile/Projects/Print/Baubit/BaubitBroschuere.webp', link: 'https://example.com/print5' },
-        { name: 'Print 8', image: './MediaFile/Projects/Print/Viacid/Viacid.webp', link: 'https://example.com/print5' },
-        { name: 'Print 9', image: './MediaFile/Projects/Print/SmartFarm/SmartFarm.webp', link: 'https://example.com/print5' },
-        { name: 'Print 10', image: './MediaFile/Projects/Print/JenPa/JenPa.webp', link: 'https://example.com/print6' },
-        { name: 'Print 11', image: './MediaFile/Projects/Print/DungeonCorridors/DungeonCorridors.webp', link: 'https://example.com/print5' },
-        { name: 'Print 12', image: './MediaFile/Projects/Print/DungeonCorridors/Box.webp', link: 'https://example.com/print5' }
+        { name: 'Print 1', image: './MediaFile/Projects/Print/Blickfang/BlickfangVIII.webp', link: '#' },
+        { name: 'Print 2', image: './MediaFile/Projects/Print/Blickfang/BlickfangIX.webp', link: '#' },
+        { name: 'Print 3', image: './MediaFile/Projects/Print/Funke/Funke1.webp', link: '#' },
+        { name: 'Print 4', image: './MediaFile/Projects/Print/DiamantFaltflyer/DiamantFaltflyer.webp', link: '#' },
+        { name: 'Print 5', image: './MediaFile/Projects/Print/Rollups/JUBI.webp', link: '#' },
+        { name: 'Print 6', image: './MediaFile/Projects/Print/Rollups/BLK.webp', link: '#' },
+        { name: 'Print 7', image: './MediaFile/Projects/Print/Baubit/BaubitBroschuere.webp', link: '#' },
+        { name: 'Print 8', image: './MediaFile/Projects/Print/Viacid/Viacid.webp', link: '#' },
+        { name: 'Print 9', image: './MediaFile/Projects/Print/SmartFarm/SmartFarm.webp', link: '#' },
+        { name: 'Print 10', image: './MediaFile/Projects/Print/JenPa/JenPa.webp', link: '#' },
+        { name: 'Print 11', image: './MediaFile/Projects/Print/DungeonCorridors/DungeonCorridors.webp', link: '#' },
+        { name: 'Print 12', image: './MediaFile/Projects/Print/DungeonCorridors/Box.webp', link: '#' }
     ],
     web: [
-        { name: 'Web 1', image: './MediaFile/Projects/Web/RECA_AG_Onlineshop.webp', link: 'https://example.com/web1' },
-        { name: 'Web 2', image: './MediaFile/Projects/Web/RECA_AG_Website.webp', link: 'https://example.com/web2' },
-        { name: 'Web 3', image: './MediaFile/Projects/Web/Viacid_AG_Website.webp', link: 'https://example.com/web3' },
-        { name: 'Web 3', image: './MediaFile/Projects/Web/Aufnahmewebsite.webp', link: 'https://example.com/web3' },
-        { name: 'Web 5', image: './MediaFile/Projects/Web/graphis.webp', link: 'https://example.com/web5' },
-        { name: 'Web 6', image: './MediaFile/Projects/Web/bill.webp', link: 'https://example.com/web6' }
+        { name: 'Web 1', image: './MediaFile/Projects/Web/RECA_AG_Onlineshop.webp', link: 'https://shop.reca.ch/de/DE/CHF/' },
+        { name: 'Web 2', image: './MediaFile/Projects/Web/RECA_AG_Website.webp', link: 'https://www.reca.ch/de/' },
+        { name: 'Web 3', image: './MediaFile/Projects/Web/Viacid_AG_Website.webp', link: 'https://viacid.ch/' },
+        { name: 'Web 3', image: './MediaFile/Projects/Web/Aufnahmewebsite.webp', link: '#' },
+        { name: 'Web 5', image: './MediaFile/Projects/Web/graphis.webp', link: 'https://patricksager1996.github.io/Web-Projekte/graphis-Plakat/' },
+        { name: 'Web 6', image: './MediaFile/Projects/Web/bill.webp', link: 'https://patricksager1996.github.io/Web-Projekte/bill-Plakat/' }
         
     ],
     systeme: [

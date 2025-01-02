@@ -515,6 +515,7 @@ header .maincontainter-headerright-nav-mobile {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     border-radius: 5px;
+    display: none;
 }
 
 .project a {
