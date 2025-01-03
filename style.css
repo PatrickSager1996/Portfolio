@@ -788,7 +788,7 @@ footer .maincontentmobile {
 
     .projects {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 20px;
         max-width: 1000px;
     }
@@ -810,8 +810,8 @@ footer .maincontentmobile {
     }
 
     .project {
-        height: clamp(120px, 20vw, 300px);
-        width: clamp(120px, 20vw, 300px);
+        height: clamp(250px, 20vw, 300px);
+        width: clamp(250px, 20vw, 300px);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1115,5 +1115,9 @@ footer .maincontentmobile {
     .maincontainer-margin {
         margin-top: 12vw;
         margin-bottom: 12vw;
+    }
+
+    .maincontainer {
+        width: 85%;
     }
 }
