@@ -36,8 +36,8 @@ h1 {
     font-style: normal;
     font-weight: 800;
     font-size: clamp(22px, 3.5vw, 60px);
-    margin-top: 0.6vw;
-    margin-bottom: 0.6vw;
+    margin-top: clamp(2px, 0.6vw, 8px);
+    margin-bottom: clamp(2px, 0.6vw, 8px);
     letter-spacing: 0.1vw;
     text-transform: normal;
     color: var(--portfolio-whitecolor);
@@ -67,7 +67,7 @@ p {
     color: var(--portfolio-whitecolor);
     font-size: clamp(8px, 1vw, 15px);
     font-weight: 300;
-    line-height: clamp(10px, 1.5vw, 22px);
+    line-height: clamp(10px, 1.5vw, 19px);
 }
 
 a {
@@ -258,7 +258,6 @@ header .maincontainer-header {
 }
 
 header .maincontainer-headerleft {
-
     width: 30%;
     height: 100%;
 
@@ -321,31 +320,39 @@ header .maincontainter-headerright-nav-mobile {
     position: relative;
 }
 
-.fullslider .contentdiv {
+.fullslider .maincontainerslider {
+    max-width: 1000px;
+    width: 70%;
+    height: auto;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.568);
-    padding-left: 1.5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-right: 6vw;
 
-    top: 50%;
-    left: 15%;
-    right: 40%;
-    transform: translateY(-50%);
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
     z-index: 10;
 }
 
+.fullslider .maincontainerslider .contentdiv {
+    background-color: rgba(0, 0, 0, 0.568);
+
+    margin-right: 15vw;
+    padding-left: clamp(5px, 2vw, 45px);
+    padding-top: clamp(5px, 2vw, 45px);
+    padding-bottom: clamp(5px, 2vw, 45px);
+    padding-right: clamp(5px, 2vw, 45px);
+}
+
+
 .animated-text-container {
-    height: 2vw;
+    height: clamp(10px, 2vw, 60px);
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 1.5vw;
+    margin-bottom: clamp(15px, 1.5vw, 20px);
 }
 
 .sliderscontentbuttons {
-    margin-top: 1.5vw;
+    margin-top: clamp(10px, 1.5vw, 35px);
     display: flex;
     gap: 1vw;
 }
@@ -727,6 +734,12 @@ footer .maincontentmobile {
     display: none;
 }
 
+@media (min-width: 2000px) {
+    .fullslider .maincontainerslider .contentdiv {
+        margin-right: 5vw;
+    }
+}
+
 @media (max-width: 600px) {
     .fullslider {
         width: 100vw;
@@ -887,7 +900,7 @@ footer .maincontentmobile {
     }
 
     button {
-        padding: clamp(3px, 1.1vw, 9px) clamp(9px, 1.1vw, 20px);
+        padding: clamp(4px, 1.2vw, 9px) clamp(9px, 1.2vw, 20px);
         font-size: clamp(11px, 1.1vw, 15px);
     }
 
@@ -898,7 +911,7 @@ footer .maincontentmobile {
     }
 
     .button-margintop {
-        margin-top: 2vw;
+        margin-top: 3vw;
     }
 
     .navbar {
@@ -959,8 +972,12 @@ footer .maincontentmobile {
         height: 100%;
     }
 
-    .fullslider > .contentdiv > .slidertext {
+    .fullslider > .maincontainerslider > .contentdiv > .slidertext {
         display: none;
+    }
+
+    .fullslider .maincontainerslider .contentdiv {
+        margin-right: 0vw;
     }
 
     .dot {
@@ -1012,7 +1029,7 @@ footer .maincontentmobile {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        gap: 3vw;
+        gap: clamp(28px, 3vw, 40px);
     }
 
     .contactnav {
