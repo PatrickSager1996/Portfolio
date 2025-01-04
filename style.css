@@ -946,7 +946,7 @@ footer .maincontentmobile {
         background-color: var(--portfolio-backgroundcolor);
     
         background-image: url(./MediaFile/Background/Background-Element-2.svg);
-        background-size: 50%;
+        background-size: 60%;
         background-position: 117% top;
         background-repeat: no-repeat;
         
@@ -1140,5 +1140,14 @@ footer .maincontentmobile {
 
     .maincontainer {
         width: 85%;
+    }
+
+    .background-top {
+        background-size: 60%;
+        background-position: -40% bottom;
+    }
+    
+    .background-bottom {
+        background-size: 60%;
     }
 }
