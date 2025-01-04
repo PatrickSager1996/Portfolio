@@ -110,7 +110,7 @@ header > .maincontainer-header > .maincontainer-headerright > ul > li > a {
     font-family: "Inter", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: clamp(10px, 1.2vw, 18px);
+    font-size: clamp(12px, 1.2vw, 18px);
     color: var(--portfolio-blackcolor);
     transition-property: all; 
     transition-duration: 0.3s;
@@ -121,7 +121,7 @@ header > .maincontainer-header > .maincontainer-headerright > ul > li > a:hover 
     font-family: "Inter", serif;
     font-style: normal;
     font-weight: 600;
-    font-size: clamp(10px, 1.2vw, 18px);
+    font-size: clamp(12px, 1.2vw, 18px);
     color: var(--portfolio-maincolor);
 }
 
