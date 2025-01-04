@@ -747,6 +747,18 @@ footer .maincontentmobile {
         overflow: hidden;
         position: relative;
     }
+
+    .fullslider .maincontainerslider {
+        width: 85%;
+    }
+
+    .fullslider .maincontainerslider .contentdiv {
+        margin-right: 20vw;
+    }
+    
+    .fullslider > .maincontainerslider > .contentdiv > .slidertext {
+        display: none;
+    }
     
     .animated-text-container {
         height: 3vw;
@@ -766,10 +778,6 @@ footer .maincontentmobile {
         font-size: clamp(15px, 1.3vw, 28px);
         font-weight: 500;
         line-height: clamp(10px, 1.5vw, 22px);
-    }
-
-    .fullslider .contentdiv {
-        right: 30%;
     }
 
     #aboutMe {
@@ -900,7 +908,7 @@ footer .maincontentmobile {
     }
 
     button {
-        padding: clamp(4px, 1.2vw, 9px) clamp(9px, 1.2vw, 20px);
+        padding: clamp(5px, 1.2vw, 9px) clamp(10px, 1.2vw, 20px);
         font-size: clamp(11px, 1.1vw, 15px);
     }
 
@@ -972,14 +980,6 @@ footer .maincontentmobile {
         height: 100%;
     }
 
-    .fullslider > .maincontainerslider > .contentdiv > .slidertext {
-        display: none;
-    }
-
-    .fullslider .maincontainerslider .contentdiv {
-        margin-right: 0vw;
-    }
-
     .dot {
         width: 8px;
         height: 8px;
@@ -991,6 +991,10 @@ footer .maincontentmobile {
 
     header {
         height: 80px;
+    }
+
+    header .maincontainer-header {
+        width: 85%;
     }
 
     header .maincontainter-headerright-nav {

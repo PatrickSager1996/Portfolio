@@ -1,3 +1,9 @@
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('contextmenu', function(event) {
+        event.preventDefault();
+    });
+});
+
 const slides = document.querySelector('.slides');
 const dots = document.querySelectorAll('.dot');
 
