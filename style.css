@@ -229,7 +229,7 @@ button:hover {
 }
 
 .button-margintop {
-    margin-top: 1vw;
+    margin-top: clamp(5px, 1vw, 22px);
 }
 
 .contact-button-mobile {
