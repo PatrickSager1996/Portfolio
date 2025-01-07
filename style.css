@@ -290,7 +290,7 @@ header .maincontainter-headerright-nav {
 
     display: flex;
     flex-direction: row;
-    gap: 3vw;
+    gap: clamp(20px, 3vw, 60px);
 }
 
 header .maincontainter-headerright-nav-mobile {
@@ -309,8 +309,8 @@ header .maincontainter-headerright-nav-mobile {
 }
 
 .maincontainer-margin {
-    margin-top: 8vw;
-    margin-bottom: 8vw;
+    margin-top: clamp(40px, 8vw, 200px);
+    margin-bottom: clamp(40px, 8vw, 200px);
 }
 
 .fullslider {
@@ -409,7 +409,7 @@ header .maincontainter-headerright-nav-mobile {
 #aboutMe .picture {
     height: 100%;
     width: 50%;
-    padding: 2vw;
+    padding: clamp(10px, 2vw, 40px);
     aspect-ratio: 1 / 1;
 }
 
@@ -475,8 +475,8 @@ header .maincontainter-headerright-nav-mobile {
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 1vw;
-    margin-top: 1.5vw;
+    gap: clamp(5px, 1vw, 20px);
+    margin-top: clamp(5px, 1.5vw, 40px);
 }
 
 .navbar button:hover, .navbar button.active {
@@ -562,8 +562,8 @@ header .maincontainter-headerright-nav-mobile {
 #skills .griddiagram {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Standardmäßig 3 Spalten */
-    column-gap: 2vw;
-    row-gap: 6vw;
+    column-gap: clamp(20px, 2vw, 60px);
+    row-gap: clamp(40px, 6vw, 150px);
     width: 100%;
     margin-top: 2vw;
 }
@@ -681,8 +681,8 @@ header .maincontainter-headerright-nav-mobile {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
-    margin-top: 1vw;
+    gap: clamp(5px, 1vw, 20px);
+    margin-top: clamp(5px, 1vw, 22px);
 }
 
 footer {
